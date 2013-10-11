@@ -1,0 +1,14 @@
+{
+  "name": "skeleton",
+  "repo": "bredele/skeleton",
+  "description": "An halloween component bootstrap",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
