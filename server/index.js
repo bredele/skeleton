@@ -16,12 +16,11 @@ app.use(express.static(path.resolve(__dirname, '..', '.')));
 app.use(express.errorHandler());
 
 // settings
-app.engine('html', require('ejs').renderFile);
-app.set('views',path.resolve(__dirname, '..'));
-
+app.set('views', path.resolve(__dirname, '..'));
+app.set('view engine', 'jade');
 
 //mount
 
 app.get('*', boot, function(req, res){
-  res.render('index.html');
+  res.render('index');
 });

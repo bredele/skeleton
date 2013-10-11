@@ -201,7 +201,7 @@ require.relative = function(parent) {
 };
 
 require.register("router/index.js", Function("exports, require, module",
-"//@ sourceURL=router/index.js"
+"alert('router');//@ sourceURL=router/index.js"
 ));
 require.alias("router/index.js", "skeleton/deps/router/index.js");
 require.alias("router/index.js", "skeleton/deps/router/index.js");
