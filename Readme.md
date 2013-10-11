@@ -1,7 +1,7 @@
 
 # skeleton
 
-  An halloween component bootstrap
+  > An halloween component bootstrap
 
 ## Installation
 
@@ -9,7 +9,17 @@
 
     $ component install bredele/skeleton
 
-## API
+## Explaination
+
+  
+
+## Minimal viable product
+
+  - Loose coupled architecture
+  - Self contained component
+  - Maintainable JavaScript and CSS
+  - Same build for both JavaScript and CSS 
+  - Reduce build overhead
 
 
 
